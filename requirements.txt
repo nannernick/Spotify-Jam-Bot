@@ -1,0 +1,6 @@
+discord.py[voice]>=2.7
+# davey 0.2 breaks voice with discord.py 2.7.1 (the bot plays but nobody hears it).
+# Remove this pin once a discord.py release supports davey 0.2.
+davey>=0.1.7,<0.2
+spotipy>=2.24
+python-dotenv>=1.0
